@@ -1,7 +1,7 @@
 #ifndef GRIMWINDOW_H
 #define GRIMWINDOW_H
-
-#include <QMainWindow>
+#include "stdafx.h"
+#include "dicePool.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class GrimWindow; }
@@ -15,9 +15,12 @@ public:
     GrimWindow(QWidget *parent = nullptr);
     ~GrimWindow();
 
+    DicePool *dicepool;
+
 private slots:
     void on_save_triggered();
     void on_load_triggered();
+    void on_dice_triggered();
 
 private:
     Ui::GrimWindow *ui;

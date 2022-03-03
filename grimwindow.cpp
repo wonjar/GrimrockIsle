@@ -24,3 +24,9 @@ void GrimWindow::on_load_triggered()
 
 }
 
+
+void GrimWindow::on_dice_triggered()
+{
+    dicepool = new DicePool(ui->centralwidget);
+    dicepool->show();
+}

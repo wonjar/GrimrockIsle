@@ -1,7 +1,4 @@
 #include "grimwindow.h"
-#include <windows.h>
-#include <winbase.h>
-#include <QApplication>
 
 int main(int argc, char *argv[])
 {
