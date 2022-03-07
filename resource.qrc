@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/ico">
-        <file>res/close.png</file>
         <file>res/780.jpeg</file>
+        <file>res/close.jpeg</file>
     </qresource>
 </RCC>
